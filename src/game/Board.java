@@ -9,9 +9,9 @@ public class Board {
         int row, col;
 
         do {
-            System.out.println("Player " + currentPlayer + ", enter your move row : ");
+            System.out.print("Player " + currentPlayer + ", enter your move row :  ");
             row = scanner.nextInt();
-            System.out.println("Player " + currentPlayer + ", enter your move col : ");
+            System.out.print("Player " + currentPlayer + ", enter your move col :  ");
             col = scanner.nextInt();
         } while (isValidMove(board, row, col));
 
